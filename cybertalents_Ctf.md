@@ -1,6 +1,6 @@
    
 
-	who am i 
+# who am i 
  - At the beginning we tried to view the page source. We found a comment that directed us that for a guest account use: Guest Guest We tried to login with these credentials, But we found a message that says access denied you need administrator privileges. So we looked in the cookies, we found it encoded to base64 so we decoded it and we found it was "login=Guest". We changed it "login=admin" then encoded it to base64. After that we used burp to intercept the request to edit the cookies to what we have changed. It worked out.
    
    # easy access
