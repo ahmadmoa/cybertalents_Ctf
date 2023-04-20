@@ -1,0 +1,26 @@
+Admin has the power
+After I navigate to the link I try to view page source so, I find this credentials : (user:support password:x34245323)
+I try to login with it but I find that I need to increase my privilage then I change the cookie from
+role:support to role:admin , then I find the flag
+
+I am legand
+I try to view page source so I find jsfuck encoding strings then I try to decode it by this site: https://filipemgs.github.io/poisonjs/ then I find the flag
+
+Crack the Hash
+I try this site: https://md5.gromweb.com/?md5=1ab566b9fa5c0297295743e7c2a6ec27
+to decrypt the hash then I find the flag
+
+Guess the password
+Simply try this site: https://hashes.com/en/decrypt/hash to find the flag
+
+Business Gathering
+First I read the given information carfeully l, then I tried to search google for " huge cyber security conference ".
+I found a website which lists 8 of cyber security confrences with their details https://www.techtarget.com/whatis/feature/8-cybersecurity-conferences-to-attend
+I seached with the location and I found San Francisco in the second conference.
+finally I took its name and it worked.
+
+Hidden Message
+After visiting the link it opens to a page containing only one single image, after trying to inspect the page I found nothing helpful.
+So, I downloaded the image then opened it with exiftool to see its information.
+I found something weird in the the Copyright Notice, I took it to hash analyzer https://www.tunnelsup.com/hash-analyzer/ and it said that it was MD5, exactly as cyber talents said.
+I submitted it, and it works.
